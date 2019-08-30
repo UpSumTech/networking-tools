@@ -13,7 +13,7 @@ func InitMain() *cobra.Command {
 		Long:  `iptables command examples`,
 		Example: `
 ### Example commands for iptables
-ntools iptables
+networking-tools iptables
 		`,
 		Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println(`
